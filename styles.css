@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #EBE3D5;
+}
+
+header {
+    background-color: #B0A695;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #776B5D;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Diğer stiller buraya eklenebilir */
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+    background-color: #f9f9f9;
+    
+}
+
+.card img {
+    max-width: 20%;
+    max-height: 20%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+
+/* Diğer stiller buraya eklenebilir */
+
+.menu {
+    position: relative;
+    display: inline-block;
+}
+
+.acilir-menu {
+    display: none;
+    position: absolute;
+    min-width: 400px;
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #776B5D;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .menu:hover {
+    background-color: #B0A695;
+}
+
+li.menu {
+    display: inline-block;
+}
+
+.acilir-menu {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+}
+
+.acilir-menu a {
+    display: block;
+    text-align: left;
+}
+
+.acilir-menu a:hover {
+    color: white;
+}
+
+.menu:hover .acilir-menu {
+    display: block;
+}
+
+.aktif {
+    background-color: #B0A695;
+    color: white;
+}
